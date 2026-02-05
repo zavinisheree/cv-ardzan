@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Ardzan Revaldy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold gradient-text">AR.</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#education" class="hover:text-blue-600 transition">Pendidikan</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Keahlian & Hobi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="w-64 h-64 md:w-80 md:h-80 relative flex-shrink-0">
+                <div class="absolute inset-0 bg-blue-600 rounded-3xl rotate-6 opacity-20"></div>
+                <img src="86acd668-cea4-4303-b62e-b4b7450a9d7a.jpeg" 
+                     alt="Ardzan Revaldy" 
+                     class="w-full h-full object-cover rounded-3xl shadow-2xl relative z-10 border-4 border-white"
+                     onerror="this.src='https://via.placeholder.com/400x400?text=Ardzan+Revaldy'">
+            </div>
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
+                    Halo, Saya <span class="gradient-text">Ardzan Revaldy</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    Pelajar yang bersemangat dalam dunia olahraga dan seni pertunjukan. Memiliki latar belakang organisasi yang kuat dan dedikasi tinggi dalam mengasah keahlian fisik maupun kreativitas.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="https://instagram.com/zanntwentyone" target="_blank" class="bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition flex items-center gap-2">
+                        <i class="fab fa-instagram"></i> @zanntwentyone
+                    </a>
+                    <a href="tel:089654794805" class="border border-slate-300 px-6 py-3 rounded-xl font-semibold hover:bg-white transition flex items-center gap-2">
+                        <i class="fas fa-phone"></i> Hubungi Saya
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Informasi Pribadi</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-500 uppercase tracking-wider">Tanggal Lahir</p>
+                                <p class="font-semibold">03 Oktober 2007</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-purple-50 text-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-500 uppercase tracking-wider">Alamat</p>
+                                <p class="font-semibold">Kiaracondong Kebon Jayanti RT05 RW03</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-green-50 text-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-500 uppercase tracking-wider">Nomor Telepon</p>
+                                <p class="font-semibold">0896-5479-4805</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Pengalaman & Penghargaan</h2>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <span class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white text-xs">
+                                    <i class="fas fa-trophy"></i>
+                                </span>
+                                <span class="font-medium text-slate-700 underline decoration-yellow-400">Juara 1 Lomba Futsal</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                                <span class="font-medium text-slate-700">Pengurus OSIS SMP (2021)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center underline decoration-blue-500 decoration-4 underline-offset-8">Riwayat Pendidikan</h2>
+            <div class="relative border-l-2 border-slate-200 ml-4 md:ml-0 md:left-1/2">
+                <div class="mb-10 ml-6 md:ml-0">
+                    <div class="absolute -left-1.5 w-3 h-3 bg-blue-600 rounded-full mt-1.5 md:left-auto md:-translate-x-1/2"></div>
+                    <div class="md:w-1/2 md:pr-12 md:text-right">
+                        <span class="text-blue-600 font-bold text-sm">2023 - 2026</span>
+                        <h3 class="text-xl font-bold">SMA KPBE</h3>
+                    </div>
+                </div>
+                <div class="mb-10 ml-6 md:ml-0 md:flex md:justify-end">
+                    <div class="absolute -left-1.5 w-3 h-3 bg-blue-600 rounded-full mt-1.5 md:left-1/2 md:-translate-x-1/2"></div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <span class="text-blue-600 font-bold text-sm">2020 - 2023</span>
+                        <h3 class="text-xl font-bold">SMP Kemala Bhayangkari</h3>
+                    </div>
+                </div>
+                <div class="mb-10 ml-6 md:ml-0">
+                    <div class="absolute -left-1.5 w-3 h-3 bg-blue-600 rounded-full mt-1.5 md:left-auto md:-translate-x-1/2"></div>
+                    <div class="md:w-1/2 md:pr-12 md:text-right">
+                        <span class="text-blue-600 font-bold text-sm">2014 - 2020</span>
+                        <h3 class="text-xl font-bold">SDN 162 Warung Jambu</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Hobbies Section -->
+    <section id="skills" class="py-20 bg-slate-900 text-white rounded-t-[3rem]">
+        <div class="max-w-5xl mx-auto px-6">
+            
+            <div class="grid md:grid-cols-2 gap-16">
+                <!-- Keahlian -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fas fa-tools text-blue-500"></i> Keahlian
+                    </h2>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>Boxing (Teknik & Fisik)</span>
+                                <span class="text-blue-400">90%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
+                                <div class="bg-blue-500 h-full w-[90%]"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>Stand Up Comedy (Public Speaking)</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
+                                <div class="bg-purple-500 h-full w-[85%]"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12">
+                        <h3 class="text-xl font-semibold mb-4 text-slate-400">Bahasa</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 bg-slate-800 rounded-full border border-slate-700 text-sm">Indonesia (Native)</span>
+                            <span class="px-4 py-2 bg-slate-800 rounded-full border border-slate-700 text-sm">Sunda (Native)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobi -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fas fa-grin-squint text-yellow-400"></i> Hobi
+                    </h2>
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 flex items-center gap-6">
+                            <div class="w-16 h-16 bg-red-500/10 text-red-500 rounded-xl flex items-center justify-center text-3xl">
+                                <i class="fas fa-hand-fist"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">Berantem</h4>
+                                <p class="text-slate-400 text-sm italic">"Menyalurkan energi melalui olahraga kontak fisik yang sportif."</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Placeholder hobi lain jika ada -->
+                        <div class="p-6 border border-dashed border-slate-700 rounded-2xl opacity-50">
+                            <p class="text-center text-slate-500 italic">Hobi lainnya sedang dikembangkan...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-slate-900 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2024 Ardzan Revaldy. Built with passion.</p>
+    </footer>
+
+</body>
+</html> 
